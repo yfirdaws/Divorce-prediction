@@ -1,4 +1,4 @@
-%%writefile app.py
+#%%writefile app.py
  
 import pickle
 import streamlit as st
@@ -184,7 +184,7 @@ def main():
     # front end elements of the web page 
     html_temp = """ 
     <div style ="background-color:yellow;padding:13px"> 
-    <h1 style ="color:black;text-align:center;">Streamlit Loan Prediction ML App</h1> 
+    <h1 style ="color:black;text-align:center;">Streamlit Divorce Prediction ML App</h1> 
     </div> 
     """
       
@@ -195,7 +195,7 @@ def main():
     Q2 = st.selectbox('I know we can ignore our differences, even if things get hard sometimes.',("Never","Seldom","Averagely","Frequently","Always"))
     Q4 = st.selectbox("When I discuss with my spouse, to contact him will eventually work.",("Never","Seldom","Averagely","Frequently","Always"))
     Q6 = st.selectbox("We don't have time at home as partners.",("Never","Seldom","Averagely","Frequently","Always"))
-    Q15 = st.selectbox(="Our dreams with my spouse are similar and harmonious",("Never","Seldom","Averagely","Frequently","Always"))
+    Q15 = st.selectbox("Our dreams with my spouse are similar and harmonious",("Never","Seldom","Averagely","Frequently","Always"))
     Q17 = st.selectbox("We share the same views about being happy in our life with my spouse",("Never","Seldom","Averagely","Frequently","Always"))
     Q22 = st.selectbox("I know how my spouse wants to be taken care of when she/he sick.",("Never","Seldom","Averagely","Frequently","Always"))
     Q24 = st.selectbox("I can tell you what kind of stress my spouse is facing in her/his life.",("Never","Seldom","Averagely","Frequently","Always"))
