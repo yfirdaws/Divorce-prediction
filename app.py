@@ -183,7 +183,7 @@ def prediction(Q2, Q4, Q6, Q15, Q17, Q22, Q24, Q25, Q26, Q29, Q40, Q48, Q49, Q53
 def main():       
     # front end elements of the web page 
     html_temp = """ 
-    <div style ="background-color:yellow;padding:13px"> 
+    <div style ="background-color:pink;padding:13px"> 
     <h1 style ="color:black;text-align:center;">Streamlit Divorce Prediction ML App</h1> 
     </div> 
     """
