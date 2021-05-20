@@ -3,11 +3,6 @@
 import pickle
 import streamlit as st
 
-# import warnings filter
-from warnings import simplefilter
-# ignore all future warnings
-simplefilter(action='ignore', category=FutureWarning)
-
 # loading the trained model
 pickle_in = open('Divorce.pkl', 'rb') 
 classifier = pickle.load(pickle_in)
