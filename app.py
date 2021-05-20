@@ -12,7 +12,7 @@ classifier = pickle.load(pickle_in)
 # defining the function which will make the prediction using the data which the user inputs 
 def prediction(Q2, Q4, Q6, Q15, Q17, Q22, Q24, Q25, Q26, Q29, Q40, Q48, Q49, Q53):
     # Pre-processing user input 
-    if Q2== "Never":
+    if Q2=="Never":
         Q2= 0
     elif Q2== "Seldom":
           Q2= 1
@@ -23,7 +23,7 @@ def prediction(Q2, Q4, Q6, Q15, Q17, Q22, Q24, Q25, Q26, Q29, Q40, Q48, Q49, Q53
     else:
         Q2 = 4
     
-    if Q4 == "Never":
+    if Q4 == float("Never"):
         Q4 = 0
     elif Q4 == "Seldom":
         Q4 = 1
@@ -34,7 +34,7 @@ def prediction(Q2, Q4, Q6, Q15, Q17, Q22, Q24, Q25, Q26, Q29, Q40, Q48, Q49, Q53
     else:
         Q4 = 4
 
-    if Q6 == "Never":
+    if Q6 == float("Never"):
         Q6 = 0
     elif Q6 == "Seldom":
         Q6 = 1
