@@ -2,25 +2,29 @@
  
 import pickle
 import streamlit as st
- 
+
+# import warnings filter
+from warnings import simplefilter
+# ignore all future warnings
+simplefilter(action='ignore', category=FutureWarning)
+
 # loading the trained model
 pickle_in = open('Divorce.pkl', 'rb') 
 classifier = pickle.load(pickle_in)
  
 @st.cache()
-  
+
 # defining the function which will make the prediction using the data which the user inputs 
 def prediction(Q2, Q4, Q6, Q15, Q17, Q22, Q24, Q25, Q26, Q29, Q40, Q48, Q49, Q53):
- 
     # Pre-processing user input 
-    if Q2 == "Never":
-        Q2 = 0
-    elif Q2 == "Seldom":
-        Q2 = 1
-    elif Q2 == "Averagely":
-        Q2 = 2
+    if Q2== "Never":
+        Q2= 0
+    elif Q2== "Seldom":
+          Q2= 1
+    elif Q2== "Averagely":
+          Q2= 2
     elif Q2== "Frequently":
-        Q2 = 3
+          Q2=3
     else:
         Q2 = 4
     
@@ -167,18 +171,17 @@ def prediction(Q2, Q4, Q6, Q15, Q17, Q22, Q24, Q25, Q26, Q29, Q40, Q48, Q49, Q53
         Q53 = 3
     else:
         Q53 = 4
-     
+      
     # Making predictions 
     prediction = classifier.predict( 
-        [[Q2, Q4, Q6, Q15, Q17, Q22, Q24, Q25, Q26, Q29, Q40, Q48, Q49, Q53]])
-     
+        [[ Q2, Q4, Q6, Q15, Q17, Q22, Q24, Q25, Q26, Q29, Q40, Q48, Q49, Q53]])
+
     if prediction == 0:
-        pred = 'NO DIVORCE'
+        pred = 'Divorce'
     else:
-        pred = 'DIVORCE'
+        pred = 'No Divorce'
     return pred
       
-  
 # this is the main function in which we define our webpage  
 def main():       
     # front end elements of the web page 
