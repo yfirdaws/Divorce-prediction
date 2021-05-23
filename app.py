@@ -172,9 +172,9 @@ def prediction(Q2, Q4, Q6, Q15, Q17, Q22, Q24, Q25, Q26, Q29, Q40, Q48, Q49, Q53
         [[ Q2, Q4, Q6, Q15, Q17, Q22, Q24, Q25, Q26, Q29, Q40, Q48, Q49, Q53]])
 
     if prediction == 0:
-        pred = 'Divorce'
-    else:
         pred = 'No Divorce'
+    else:
+        pred = ' Divorce'
     return pred
       
 # this is the main function in which we define our webpage  
