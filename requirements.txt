@@ -102,7 +102,7 @@ streamlit==0.81.1
 streamlit-ace==0.0.4
 tensorboard==2.4.1
 tensorboard-plugin-wit==1.8.0
-tensorflow==2.4.2
+tensorflow==2.4.1
 tensorflow-estimator==2.4.0
 termcolor==1.1.0
 terminado==0.9.4
