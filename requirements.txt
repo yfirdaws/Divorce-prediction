@@ -83,6 +83,7 @@ pydeck==0.6.2
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1620245170812/work
 pyngrok==5.0.5
 pyparsing==2.4.7
+pypiwin32==223
 pyrsistent @ file:///D:/bld/pyrsistent_1610146997928/work
 python-dateutil==2.8.1
 pytz==2021.1
