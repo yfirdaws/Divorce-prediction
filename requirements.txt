@@ -108,7 +108,7 @@ streamlit==0.81.1
 streamlit-ace==0.0.4
 tensorboard==2.4.1
 tensorboard-plugin-wit==1.8.0
-tensorflow==2.4.1
+tensorflow==2.5.0
 tensorflow-estimator==2.4.0
 termcolor==1.1.0
 terminado @ file:///D:/bld/terminado_1620873197214/work
