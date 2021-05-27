@@ -8,7 +8,7 @@ attrs==21.2.0
 backcall==0.2.0
 backports.functools-lru-cache ==1.6.4
 base58==2.1.0
-bleach=3.3.0
+bleach==3.3.0
 cached-property==1.5.2
 cachetools==4.2.1
 certifi==2020.12.5
