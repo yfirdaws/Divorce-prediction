@@ -29,7 +29,6 @@ google-auth==1.28.0
 google-auth-oauthlib==0.4.4
 google-pasta==0.2.0
 grpcio==1.32.0
-h5py==2.10.0
 idna==2.10
 importlib-metadata >=3.10.0
 ipykernel >=5.5.4
@@ -80,12 +79,12 @@ pydeck==0.6.2
 Pygments==2.9.0
 pyngrok==5.0.5
 pyparsing==2.4.7
-pypiwin32==223
+#pypiwin32==223
 pyrsistent ==0.17.3
 python-dateutil==2.8.1
 pytz==2021.1
-pywin32==300
-pywinpty>=0.5.7
+#pywin32==300
+#pywinpty>=0.5.7
 PyYAML==5.4.1
 pyzmq ==22.0.3
 regex==2021.4.4
