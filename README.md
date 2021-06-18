@@ -1,4 +1,4 @@
-##DIVORCE PREDICTION APP
+## DIVORCE PREDICTION APP
 This project was done as part of my #100 Days of code challenge. One thing I planned on learning during this challenge was deploying a model. During the week, I got familiar with sreamlit and heroku and this app is basically what I learned. 
 
 
